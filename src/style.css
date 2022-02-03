@@ -1,3 +1,36 @@
-body {
-  background-color: bisque;
+* {
+  margin: 0;
+}
+#site_name {
+  height: 70px;
+  background-color: #cccccc;
+  display: flex;
+  align-items: center;
+}
+#site_name > h1 {
+  padding-left: 20px;
+}
+
+#nav {
+  background-color: #333333;
+  height: 30px;
+  list-style: none;
+  display: flex;
+}
+#nav > li {
+  color: white;
+  /* margin: 10px; */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  text-align: center;
+  font-size: large;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #008c22;
 }
