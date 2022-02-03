@@ -36,6 +36,13 @@
   border-right: 1px solid white;
   cursor: pointer;
 }
+.links {
+  text-decoration: none;
+  color: white;
+}
+.links:hover {
+  text-decoration: underline;
+}
 
 .active {
   background-color: #008c22;
